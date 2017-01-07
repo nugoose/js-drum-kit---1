@@ -2,14 +2,21 @@
     padding: 0;
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 html{
     background: url("images/1jcel81di6y-carl-newton.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .welcome{
@@ -80,4 +87,8 @@ a{
 .soundKey .soundType{
     font-size: 15px;
     color: lawngreen;
+}
+
+strong{
+    font-weight: bold;
 }
