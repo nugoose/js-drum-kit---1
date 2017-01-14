@@ -129,4 +129,21 @@ domReady(function() {
         }, 80);
     }
     
+    ////////info bubble////////
+    document.getElementById('infoBubble').addEventListener('click', function(e){
+        e = document.getElementById('infoBox');
+        if(e.style.opacity == 0){
+            e.style.display = 'inline';
+            setTimeout(function(){
+                e.style.opacity = 1;
+            }, 1);
+        }
+        else{
+            e.style.opacity = 0;
+            setTimeout(function(){
+                e.style.display = 'none';
+            }, 1000);
+        }
+    }, false);
+    
 });
